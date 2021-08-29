@@ -1,7 +1,7 @@
 const axios = require('axios');
 const cheerio = require('cherio');
 const func=async ()=>{
-    const url ='https://webscraper.io/test-sites/e-commerce/allinone'
+    const url ='' // input we recieve from user, variable here
     const {data}= await axios({
         method: "GET",
         url: url
